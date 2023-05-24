@@ -1,0 +1,15 @@
+#path: ../data_xyz
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 49
+names: ['2', 'Beware of Ice or snow', 'Crooked road ahead', 'Cycle movement', 'Deer movement', 'End of 80 km speed limit obligations', 'End of obligations', 'End of overtaking by lorries obligations', 'End of overtaking by lorries', 'End of overtaking obligations', 'Go Left Lane', 'Left turn', 'Maximum speed 100 km', 'Maximum speed 120 km', 'Maximum speed 20 km', 'Maximum speed 30 km', 'Maximum speed 50 km', 'Maximum speed 60 km', 'Maximum speed 70 km', 'Maximum speed 80 km', 'NO IDEA', 'No overtaking by lorries', 'No overtaking', 'No way through here', 'One way road', 'Other risk possibilities', 'Parking', 'Passerby crossing', 'Passerby', 'Priority road', 'Prohibition for all types of vehicle', 'Right turn', 'Road is shrinking in the right', 'Road works', 'STOP', 'Slippery road', 'Small Circle', 'Sudden turn left', 'Sudden turn right', 'Traffic signal', 'Travel straight or left', 'Travel straight or right', 'Truck movement', 'Uneven road', 'Vehicle entry restricted', 'Zebra-Crossing', 'go right lane', 'let other go first', 'road in two-side']
+
+roboflow:
+  workspace: north-south-university-znfbe
+  project: cse499a
+  version: 15
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/north-south-university-znfbe/cse499a/dataset/15
